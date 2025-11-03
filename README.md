@@ -9,7 +9,7 @@ The framework is designed using Page Object Model. It has a page layer containin
 
 ## Pre-requisite
 
-- Java jdk-1.7 or higher
+- Java jdk-17 or higher
 - Apache Maven 3 or higher
 
 ## Getting Started
@@ -20,8 +20,6 @@ For easiest way to getting started, extract this project and open it from Eclips
 ## Run tests on local machine
 
 - Extract the project from git and open it in Eclipse.
-
-- Make sure that remote_execution in src/main/java/com/qa/config/config.properties is set as false.
 
 - Go to src/test/java/com/qa/suites/ and execute the suite.xml file.
 
