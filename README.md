@@ -1,9 +1,7 @@
 # Mentorship
-This Test Automation Framework is created using Java + Selenium Web Driver + TestNG. Which can be used across different web based applications. In this framework the tests can be run in following ways:
+I have created this testNG framework using java and Selenium Web Driver and also used  maven for dependency management. This framework is designed using Page Object Model for the purpose of maintainability and reusability. For reporting purpose I have use extend reports. Version control System used is Github. This framework is designed for web application and to check basic functionality of the web application. Which can be used across different web based applications. In this framework the tests can be run on a local machine.
 
-- Run tests on a local machine
-
-The framework is designed using Page Object Model. It has a page layer containing page classes and a test layer that contains test class and test suite files. The common properties of framework are defined in src/main/java/com/qa/config/config.properties
+It has a page layer containing page classes and a test layer that contains test class and test suite files. The common properties of framework are defined in src/main/java/com/qa/config/config.properties and the locators are in src/main/java/com/qa/config/locators.properties.
 
 
 ## Pre-requisite
